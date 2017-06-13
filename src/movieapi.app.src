@@ -1,0 +1,12 @@
+{application, movieapi,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { movieapi_app, []}},
+  {env, []}
+ ]}.
